@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*----------------------RESET--------------------*/
+
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,
+li, dl, dt, dd, form, a, fieldset, input, th, td
+{margin: 0; padding: 0; outline: none;}
+
+html{background:#ccc;}
+
+body{line-height:1; font-size:62.5%; background:#ccc; font-family:Arial, Helvetica, sans-serif;} /*---- 1.0 em = 10px---*/
+
+h1, h2, h3, h4, h5, h6{font-size:100%;}
+
+p{font-size:1.3em; line-height:1.8em; font-weight:bold;}
+
+a{text-decoration:none; color:#333; font-size:1.2em; font-weight:bold;}
+
+a img{border:0;}
+
+/*----------------------RESET--------------------*/
+
+.global-div{width:900px; height:auto; min-height:300px; padding:0 15px 15px 15px; position:absolute; float:none; left:50%;  margin:5px 0 0 -470px ; border:5px solid #fff; background:#fff; box-shadow:0 0 5px #999; -moz-box-shadow:0 0 5px #999; -webkit-box-shadow:0 0 5px #999; }
+
+h1{font:italic 4em Georgia, "Times New Roman", Times, serif; text-align:center; margin: -5px -20px 20px -20px; background:#111; color:#fff; padding:15px 5px; letter-spacing:-0.04em; text-shadow:1px 1px 5px #fff;}
+
+.galeriacss li, .galeriajs li{position:relative; float:left; margin-left:35px; list-style:none; margin-bottom:20px;}
+
+.galeriacss li img:hover, .galeriacss li img:focus, .galeriajs li img:hover{box-shadow:1px 1px 10px #999; -moz-box-shadow:1px 1px 10px #999;}
+
+.galeriacss li a:hover:after, .galeriacss li a:focus:after{content:attr(title); position:absolute; bottom:0; left:0; padding:10px; background:rgba(255,255,255,0.5); width:100%; text-shadow:2px 1px 1px #ccc;}
+
+/*.galeriacss li a:after{content:attr(title); position:absolute; bottom:0; left:0; padding:10px; background:rgba(255,255,255,0.5); width:100%; text-shadow:2px 1px 1px #ccc;}*/
+
+.galeriajs li div{position:absolute; bottom:0; width:100%; background:#fff; border-top:1px solid #fff; padding:5px; display:none;}
+
+.credito{font-size:1.1em; position:absolute; right:0; bottom:-40px; margin-top:15px;}
+
+.credito a{font-size:1.1em;}

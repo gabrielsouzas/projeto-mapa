@@ -1,4 +1,4 @@
-// JavaScript Document
+// JavaScript
 
 $(function(){
 $('.galeriajs li').hover(function(){
